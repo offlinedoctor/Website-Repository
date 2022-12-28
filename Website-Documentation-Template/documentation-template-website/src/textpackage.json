@@ -1,0 +1,26 @@
+{
+	"titlePage":
+	{
+		"heading": "Editor Utility Widget Helper Functions",
+		"description": "The Editor Utility Widget Helper Functions attempts to bring out some of the hidden capabilities of the Unreal Engine and bring them out to the forefront for use in Blueprints. This allows you to prototype, iterate and create Editor tools much more quickly."
+	},
+
+	"documentation_helper_functions":
+	[
+		["Notifications - Generic", "The generic notification system can be called to show the user a message that appears on the side of their screen", "../img/showNotificationGeneric.png"],
+		["Notifications - Alert", "This notification takes a boolean input and returns 'Success' if the prior action was successful, or 'Fail', if the prior action was unsuccessful.", "../img/showNotificationPassFail.png"],
+		["Show Open File Dialog", "A window popout that allows you to select the file of interest, outputting the file path as a string", "../img/openFileDialog.png"],
+		["Save & Load to a Text File", "When these functions are called, a dialog box will appear allowing you to select the .txt file of interest to save or load to. Works with .ini files too.", "../img/saveAndloadTextFile.png"],
+		["Is Key Down?", "Helper Function that indicates whether or not a particular key is being held down. Useful when tied to Event Tick.", "../img/isKeyDown.png"]
+	],
+
+	"documentation_custom_umg":
+	[
+		["Progress Bar", "Synch this with a for loop process to get a progress bar that fills up as the for loop itself fills up", "../img/w_ProgressBar.png"],
+		["Color Picker", "Allows you to select a color. Combine with the output function to get the RGB color selected", "../img/w_ColorWheel.png"],
+		["Object Filter", "Select an Actor from the scene. Combine with the output function to get the actor selected", "../img/w_EyeDropper.png"],
+		["Volume Slider", "A volume slider. Can be moved around, but does not change the world volume. Combine with the output function to get the current value and pin it to other functions.", "../img/w_VolumeSlider.png"],
+		["Show Folder Dialog", "Allows you to select a folder.", "../img/w_FolderPicker.png"],
+		["Notification Confirmation", "A generic notification system with an 'Okay', 'Cancel', 'Cross', option. Useful to ensure User is aware of what they are doing before undertaking the action. Option chosen outputs as a struct, so you can then chain what to do.", "../img/w_ConfirmDialog.png"]
+	]
+}
