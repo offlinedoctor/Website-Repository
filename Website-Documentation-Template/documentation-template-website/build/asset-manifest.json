@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.adb1f318.css",
+    "main.js": "/static/js/main.b5fb0f1a.js",
+    "static/media/DejaVuSans.ttf": "/static/media/DejaVuSans.67ed0b9aeb82e75288aa.ttf",
+    "static/media/Roboto-Light.ttf": "/static/media/Roboto-Light.03e629f6348896ffa23a.ttf",
+    "index.html": "/index.html",
+    "main.adb1f318.css.map": "/static/css/main.adb1f318.css.map",
+    "main.b5fb0f1a.js.map": "/static/js/main.b5fb0f1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb1f318.css",
+    "static/js/main.b5fb0f1a.js"
+  ]
+}
